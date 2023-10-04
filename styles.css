@@ -11,7 +11,6 @@ body {
 }
 
 .app {
-    
     margin: 70px auto 30px;
     padding: 30px 30px 60px;
     width: 100%;
@@ -63,3 +62,22 @@ h1 {
 .input-container button:active {
     opacity: 0.7;
 }
+
+.task-container h2 {
+    font-weight: 200;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#list-container li {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(240, 240, 240);
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   font-size: 1.25srem;
+   width: 100%;
+   display: block;
+}
+
