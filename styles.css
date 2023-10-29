@@ -92,6 +92,9 @@ h1 {
 .task .text {
     width: 100%;
     display: block;
+    background: none;
+    border: none;
+    
 }
 
 .task .content {
@@ -107,5 +110,11 @@ h1 {
     cursor: pointer;
     margin: 0 0.5rem;
     font-size: 1rem;
+    
+    font-weight: 200;
+    background-color: gray;
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    padding: 0px 5px;
+    border-radius: 5px;
 }
-
