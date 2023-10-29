@@ -49,6 +49,10 @@ function createTask() {
                 taskEditElement.innerText = "Edit";
             }
         } );
+
+        taskDeleteElement.addEventListener("click", () => {
+            listContainer.removeChild(taskElement);
+        } );
     }
 
 }
